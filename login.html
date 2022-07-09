@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #d4418e;
+            background-image: linear-gradient(315deg, #d4418e 0%, #0652c5 74%);
+        }
+        #container{
+            display: block;
+            margin: auto;
+            width:29%;
+            height:570px;
+            margin-top: 40px;
+            text-align: center;
+            background-color: whitesmoke;
+            border-radius: 10px;
+        }
+        #container>h1{
+            padding-top: 100px;
+            font-family: sans-serif;
+        }
+        #user{
+            margin-top: 30px;
+            width:300px;
+            height:40px;
+            background-color: transparent;
+            border:none;
+            border-bottom: 2px solid rgb(158, 157, 157);
+            font-size: 15px;
+        }
+        #pass{
+            margin-top: 30px;
+            width:300px;
+            height:40px;
+            background-color: transparent;
+            border:none;
+            border-bottom: 2px solid rgb(158, 157, 157);
+            font-size: 15px;
+        }
+        #button{
+            margin-top: 30px;
+            width:302px;
+            height:55px;
+            border:0px solid;
+            color:whitesmoke;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: #7f53ac;
+            background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+            cursor: pointer;
+
+        }
+        #button:hover{
+            margin-top: 30px;
+            width:302px;
+            height:55px;
+            border:1.5px solid;
+            color:whitesmoke;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: #7f53ac;
+            background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+            cursor: pointer;
+
+        }
+        #option>p{
+            color: grey;
+            font-size: 14px;
+            font-family: sans-serif;
+        }
+        #option>p:nth-child(1){
+            margin-top: 50px;
+        }
+        .blu{
+            color: #2139a4;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Login</h1>
+        <div id="input">
+            <input id="user" type="email" placeholder="Email">
+            <input id="pass" type="password" placeholder="Password">
+        </div>
+            <button id="button">Login</button>
+        <div id="option">
+            <p>Forgot <span class="blu">Password</span>?</p>
+            <p>Don't have an account? <span class="blu">Signup</span></p>
+        </div>
+    </div>
+</body>
+</html>
